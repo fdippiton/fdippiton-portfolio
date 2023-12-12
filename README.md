@@ -4,7 +4,7 @@ I'm a Computer Systems Engineering student from Dominican Republic. I'm really p
 
 - 👀 I’m really into web programming👩🏽‍💻, robotics, software development and embedded systems.
 - 🌱 Currently learning frontend development.
-- 👨‍💻 All of my projects are available at [fdippiton.github.io/portfolio/](https://fdippiton.github.io/portfolio/)
+- 👨‍💻 All of my projects are available at [fdippiton.github.io/fdippiton-portfolio](https://fdippiton.github.io/fdippiton-portfolio/)
 - ⚡ Fun fact **I'm a old soul in a young body :)**
 - 📫 Reach me on francina.dippiton@gmail.com and follow me on @fdippiton
 

@@ -1,0 +1,145 @@
+﻿FRANCINA DIPPITON
+
+
+Sto. Dgo., Dominican Republic • francina.dippiton@gmail.com
+
+
+ ABOUT
+________________
+
+
+Aspiring Full-Stack Developer, currently studying Computer Systems Engineering  at UNPHU. Passionate about technology, education and innovative projects. Seeking to contribute by sharing skills and knowledge, also solving problems, while simultaneously improving them. Focused on the development of scalable, efficient and secure software, innovating and contributing to the world by using technology.
+
+
+
+
+EDUCATION
+________________
+
+
+* Bachelor’s degree in Computer Systems Engineering                                                Sto. Dgo., DR 
+Pedro  Henríquez Ureña National University                                                                         Sept. 2017 - Present
+GPA 3.74
+
+
+* Responsive Web Design        Certification                                                                                                   Online
+FreeCodeCamp                                                                                                               Oct. 2022
+
+
+
+
+
+
+EXPERIENCE & PROJECTS 
+________________
+
+
+
+
+Todolist. Website to keep track of daily tasks. 
+
+
+* Implementation of technologies such as HTML, CSS, React, JavaScript, Tailwind CSS & Vite.js
+* * Creation of React components and implementation of these
+* * Website styling with the Tailwind CSS
+* * Deployment of the website in gh-pages
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+SKILLS
+________________
+
+
+Technical skills: Structure (eg. HTML, CSS, Bootstrap, Tailwind CSS); Programming Languages (eg. JavaScript, Python); Frameworks (eg. Express, Flask, React, JQuery); Version Control (eg. Git, Github); Databases (eg. SQL Server, MySQL).
+Soft skills: Pay attention to detail, analysis capacity, self-taught, assertive communication, responsibility and effort.
+Languages: Spanish (Native speaker), English (Intermediate), Norsk (A0).
+
+
+
+
+CERTIFICATIONS & PORTFOLIO
+________________
+
+
+
+
+Portfolio: fdippiton.github.io/portfolio/
+Linkedin: linkedin.com/in/francina-dippiton
+Github:  github.com/fdippiton
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+July 4, 2023
+<contact name>
+<contact title>
+<company name>
+<street address>
+<city, state, zip code>
+
+
+Dear <recruiter>:
+
+
+My name is Francina Dippiton and I am from the Dominican Republic. I am a student of Computer Systems Engineering at UNPHU.   I enjoy technology and all the process of developing and building software. So I’m so excited to start contributing to this amazing field of science. I like programming, being able to innovate, and create helpful technology to bring value to society. I like how complex software can get, and how it allows us to abstract aspects from our real world to bring them to the virtual field. I like how amazing that is. 
+
+
+After doing some research on different platforms, I found the position of <position name> posted in this company, so I decided to apply to it because I consider that I can fit in that position and contribute in a good way to the development of your company. You are looking for a person with skills on <stack technologies> and I match with most of them. I am always willing to improve and be able to gain the knowledge and skills required. I am open to grow and become a better developer and person.
+
+
+I definitely think this company is a great place to continue developing my software skills. Thank you for your consideration and I look forward to hearing from you soon.
+
+
+
+
+Sincerely,
+
+
+Francina Dippitón

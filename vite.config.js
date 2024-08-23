@@ -4,7 +4,7 @@ import react from "@vitejs/plugin-react";
 // https://vitejs.dev/config/
 export default defineConfig({
   plugins: [react()],
-  base: "https://fdippiton.github.io/fdippiton-portfolio/",
+  base: "/portafolio/",
   build: {
     outDir: "dist",
   },

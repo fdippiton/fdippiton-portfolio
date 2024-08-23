@@ -1,0 +1,92 @@
+@import "../node_modules/tailwindcss/base";
+@import "../node_modules/tailwindcss/components";
+@import "../node_modules/tailwindcss/utilities";
+
+/* ---------------------------------- FONTS --------------------------------- */
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,500;0,700;0,800;1,400;1,500;1,700;1,800;1,900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=JetBrains+Mono:ital,wght@0,100;0,200;0,300;0,600;0,700;0,800;1,100;1,200;1,500;1,600;1,700;1,800&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Caprasimo&display=swap");
+
+/* -------------------------------- VARIABLES ------------------------------- */
+:root {
+  --blue-ship-cove: #c3e2e5;
+  --yellow-beeswax: #fdf1c8;
+  --rose-french-lilac: rgb(221, 198, 240);
+  --blue-minsk: #373286;
+  --yellow: #fab338;
+  --rose-tonys-pink: #e5979b;
+  --gray-light: #f1f1fa;
+  --blue-bright: #1100d9;
+  --electric-blue: #0500e8;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  /* font-family: "Montserrat", sans-serif;
+   */
+  font-family: "JetBrains Mono", monospace;
+  background-color: var(--gray-light);
+}
+
+@keyframes moveLeft {
+  0% {
+    transform: translate3d(0, 0, 0);
+  }
+  100% {
+    transform: translate3d(-50%, 0, 0);
+  }
+}
+
+.moving-skill-wrapper {
+  display: inline-block;
+  white-space: nowrap;
+  will-change: transform;
+}
+
+.moving-skill-wrapper:hover {
+  animation-play-state: paused;
+}
+
+/* Estilos para el contenido desplazable */
+.scrollable-content {
+  height: 100vh; /* Ajusta la altura según sea necesario */
+  overflow-y: scroll;
+}
+
+.scrollable-content::-webkit-scrollbar {
+  width: 12px;
+}
+
+.scrollable-content::-webkit-scrollbar-thumb {
+  -webkit-border-radius: 20px;
+  border-radius: 20px;
+  background: #f93700;
+}
+
+.scrollable-content::-webkit-scrollbar-track {
+  background: #f1f1f1;
+}
+
+/* Estilos para el contenido desplazable */
+/* styles.css */
+@media (max-width: 1024px) {
+  .nav_menu {
+    flex-direction: column;
+    background-color: #fab338;
+    position: absolute;
+    top: 80px;
+    right: 0;
+    left: 0; /* Asegúrate de que el menú se alinee al borde izquierdo */
+    width: 100%;
+    z-index: 10;
+    overflow-x: hidden; /* Evita el desbordamiento horizontal */
+  }
+
+  .nav-item {
+    padding-bottom: 15px;
+    text-align: center;
+  }
+}

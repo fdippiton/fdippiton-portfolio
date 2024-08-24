@@ -32,7 +32,15 @@ function Header() {
 
   return (
     <header className="h-20 flex justify-between items-center px-5 max-w-full overflow-hidden">
-      <div className="text-electric_blue text-2xl">Fran</div>
+      <div className="text-electric_blue text-2xl">
+        {" "}
+        <Link
+          className="nav-link cursor-pointer"
+          to={`/fdippiton-portfolio#home`}
+        >
+          Fran.cs
+        </Link>
+      </div>
 
       <div
         className="lg:hidden cursor-pointer text-electric_blue text-3xl"
@@ -49,34 +57,52 @@ function Header() {
         onClick={closeMenu} // Cerrar el menú al hacer clic en un enlace
       >
         <li className="nav-item py-2 lg:pr-5 text-electric_blue">
-          <a className="nav-link cursor-pointer" href="#home">
+          <Link
+            className="nav-link cursor-pointer"
+            to={`/fdippiton-portfolio#home`}
+          >
             HOME
-          </a>
+          </Link>
         </li>
         <li className="nav-item py-2 lg:pr-5 text-electric_blue">
-          <a className="nav-link cursor-pointer" href="#about">
+          <Link
+            className="nav-link cursor-pointer"
+            to={`/fdippiton-portfolio#about`}
+          >
             ABOUT
-          </a>
+          </Link>
         </li>
         <li className="nav-item py-2 lg:pr-5 text-electric_blue">
-          <a className="nav-link cursor-pointer" href="#work">
+          <Link
+            className="nav-link cursor-pointer"
+            to={`/fdippiton-portfolio#work`}
+          >
             WORK
-          </a>
+          </Link>
         </li>
         <li className="nav-item py-2 lg:pr-5 text-electric_blue">
-          <a className="nav-link cursor-pointer" href="#skills">
+          <Link
+            className="nav-link cursor-pointer"
+            to={`/fdippiton-portfolio#skills`}
+          >
             SKILLS
-          </a>
+          </Link>
         </li>
         <li className="nav-item py-2 lg:pr-5 text-electric_blue">
-          <a className="nav-link cursor-pointer" href="#resume">
+          <Link
+            className="nav-link cursor-pointer"
+            to={`/fdippiton-portfolio#resume`}
+          >
             RESUME
-          </a>
+          </Link>
         </li>
         <li className="nav-item py-2 text-electric_blue">
-          <a className="nav-link cursor-pointer" href="#contact">
+          <Link
+            className="nav-link cursor-pointer"
+            to={`/fdippiton-portfolio#contact`}
+          >
             CONTACT
-          </a>
+          </Link>
         </li>
       </ul>
     </header>

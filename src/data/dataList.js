@@ -40,5 +40,6 @@ export const workData = [
     technologies_used: "HTML, CSS",
     github_url: "https://github.com/fdippiton/family-eternal-institute-project",
     url: "https://fdippiton.github.io/family-eternal-institute-project/",
+    images: ["institute-project_.png"],
   },
 ];

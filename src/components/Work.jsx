@@ -3,6 +3,7 @@ import { HiOutlineExternalLink } from "react-icons/hi";
 import { BsGithub } from "react-icons/bs";
 import React, { useState, useRef } from "react";
 import "../styles/Work.css";
+import { Link } from "react-router-dom";
 
 function Work() {
   const [pointerPosition, setPointerPosition] = useState({ x: 0, y: 0 });
@@ -36,7 +37,8 @@ function Work() {
       <div className="flex flex-wrap w-full">
         {workData.map((project) => {
           return (
-            <div
+            <Link
+              to={`/fdippiton-portfolio/project/${project.id}/${project.project_name}`}
               key={project.id}
               className="container_pointer py-4 pr-4 h-fit w-full border-electric_blue hover:bg-casablanca hover:p-10 cursor-pointer"
               style={{ borderBottom: "1px solid blue" }}
@@ -101,7 +103,7 @@ function Work() {
                   }}
                 />
               )}
-            </div>
+            </Link>
           );
         })}
       </div>

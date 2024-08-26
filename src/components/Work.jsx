@@ -1,9 +1,9 @@
-import { workData } from "../data/dataList";
+import React, { useState, useRef } from "react";
+import { Link } from "react-router-dom";
 import { HiOutlineExternalLink } from "react-icons/hi";
 import { BsGithub } from "react-icons/bs";
-import React, { useState, useRef } from "react";
+import { workData } from "../data/dataList";
 import "../styles/Work.css";
-import { Link } from "react-router-dom";
 
 function Work() {
   const [pointerPosition, setPointerPosition] = useState({ x: 0, y: 0 });
@@ -98,8 +98,8 @@ function Work() {
                 <div
                   className="red_pointer"
                   style={{
-                    left: `${pointerPosition.x}px`, // Ajusta según sea necesario
-                    top: `${pointerPosition.y}px`, // Ajusta según sea necesario
+                    left: `${pointerPosition.x}px`,
+                    top: `${pointerPosition.y}px`,
                   }}
                 />
               )}

@@ -10,10 +10,6 @@ function About() {
         </h5>
       </div>
 
-      {/* <div className="h-32 flex items-center">
-        <h5 className="mb-32 mt-40 fade-in-top italic text-3xl">ABOUT ME</h5>
-      </div> */}
-
       <div className="mb-10">
         <p className="font-medium md:text-xl sm:text-3xl fade-in-top leading-10 text-justify text-electric_blue">
           I&apos;m an aspiring full-stack developer and

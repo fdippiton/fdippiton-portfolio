@@ -1,10 +1,8 @@
 import React, { useState } from "react";
-import { dataCertifications } from "../data/dataCertifications";
-import { Worker, Viewer } from "@react-pdf-viewer/core";
-import "@react-pdf-viewer/core/lib/styles/index.css";
-import { FaWindowClose } from "react-icons/fa";
-import { FaExternalLinkSquareAlt } from "react-icons/fa";
 import { Link } from "react-router-dom";
+import { dataCertifications } from "../data/dataCertifications";
+import "@react-pdf-viewer/core/lib/styles/index.css";
+import { FaExternalLinkSquareAlt } from "react-icons/fa";
 
 function Certification() {
   return (

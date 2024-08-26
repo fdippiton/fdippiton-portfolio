@@ -1,8 +1,7 @@
-import { Link } from "react-router-dom";
-import "../index.css";
-
 import React, { useState, useEffect, useRef } from "react";
+import { Link } from "react-router-dom";
 import { FaBars } from "react-icons/fa"; // Importar el ícono del menú
+import "../index.css";
 
 function Header() {
   const [isOpen, setIsOpen] = useState(false);

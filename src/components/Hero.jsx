@@ -1,6 +1,6 @@
 import francina_profile from "../assets/francina_profile.jpg";
-import "../index.css";
 import { FaLocationDot } from "react-icons/fa6";
+import "../index.css";
 
 function Hero() {
   return (

@@ -6,8 +6,6 @@ import { FaWindowClose } from "react-icons/fa";
 import { FaExternalLinkSquareAlt } from "react-icons/fa";
 import { Link } from "react-router-dom";
 
-import "../styles/Certification.css";
-
 function Certification() {
   return (
     <div className="h-fit p-2 mx-auto px-20" id="certifications">

@@ -96,12 +96,20 @@ function Header() {
             RESUME
           </Link>
         </li>
-        <li className="nav-item py-2 text-electric_blue">
+        <li className="nav-item py-2 lg:pr-5 text-electric_blue">
           <Link
             className="nav-link cursor-pointer"
             to={`/fdippiton-portfolio#contact`}
           >
             CONTACT
+          </Link>
+        </li>
+        <li className="nav-item py-2  text-electric_blue">
+          <Link
+            className="nav-link cursor-pointer"
+            to={`/fdippiton-portfolio#certifications`}
+          >
+            CERTIFICATIONS
           </Link>
         </li>
       </ul>

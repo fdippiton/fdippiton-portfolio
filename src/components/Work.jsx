@@ -28,7 +28,7 @@ function Work() {
 
   return (
     <div className="mx-auto px-20 h-auto" id="work">
-      <div className="h-52 flex items-center justify-center">
+      <div className="h-40 flex items-center justify-center">
         <h5 className="fade-in-top italic text-3xl text-electric_blue">
           WORK & EXPERIENCE
         </h5>

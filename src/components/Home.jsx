@@ -6,6 +6,7 @@ import Resume from "./Resume";
 import Contact from "./Contact";
 import { useEffect } from "react";
 import { useLocation } from "react-router-dom";
+import Certification from "./Certification";
 
 function Home() {
   const { pathname, hash } = useLocation();
@@ -35,8 +36,8 @@ function Home() {
       <About />
       <Work />
       <Skills />
+      <Certification />
       <Resume />
-      <Contact />
     </div>
   );
 }

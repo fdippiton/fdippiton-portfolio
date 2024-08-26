@@ -9,6 +9,7 @@ import {
   BrowserRouter,
 } from "react-router-dom";
 import Project from "./components/Project";
+import Certification from "./components/Certification";
 
 function App() {
   return (
@@ -21,6 +22,10 @@ function App() {
             <Route
               path="/fdippiton-portfolio/project/:id/:project_name"
               element={<Project />}
+            />
+            <Route
+              path="/fdippiton-portfolio/certifications"
+              element={<Certification />}
             />
           </Routes>
           <Footer />

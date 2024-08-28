@@ -2,7 +2,11 @@ import React from "react";
 import { BsGithub, BsLinkedin } from "react-icons/bs";
 import { FiInstagram } from "react-icons/fi";
 
-function Footer() {
+/* -------------------------------------------------------------------------- */
+/*                              FOOTER COMPONENT                              */
+/* -------------------------------------------------------------------------- */
+
+const Footer = () => {
   return (
     <div className="h-fit p-6 flex flex-col bg-electric_blue text-white">
       <div className="flex flex-col md:flex-row justify-center items-center md:justify-between md:items-top">
@@ -79,6 +83,6 @@ function Footer() {
       </div>
     </div>
   );
-}
+};
 
 export default Footer;

@@ -1,15 +1,19 @@
 import { BsGithub, BsLinkedin } from "react-icons/bs";
 import { FiInstagram } from "react-icons/fi";
 
-function About() {
+/* -------------------------------------------------------------------------- */
+/*                               ABOUT COMPONENT                              */
+/* -------------------------------------------------------------------------- */
+const About = () => {
   return (
     <div className="mx-auto px-20 h-auto text-blue_night" id="about">
+      {/* ---------------------------------- Title
+        --------------------------------- */}
       <div className="h-52  flex items-center justify-center">
         <h5 className=" fade-in-top italic text-3xl text-electric_blue">
           ABOUT ME
         </h5>
       </div>
-
       <div className="mb-10">
         <p className="font-medium md:text-xl sm:text-3xl fade-in-top leading-10 text-justify text-electric_blue">
           I&apos;m an aspiring full-stack developer and
@@ -19,7 +23,8 @@ function About() {
           learn Norwegian.
         </p>
       </div>
-
+      {/* ------------------------------ Social Medias
+      ----------------------------- */}
       <div className="flex">
         <a
           className="hover:text-red hover:scale-110 p-2 mr-3 text-electric_blue border border-electric_blue hover:border-red rounded-full"
@@ -48,6 +53,6 @@ function About() {
       </div>
     </div>
   );
-}
+};
 
 export default About;

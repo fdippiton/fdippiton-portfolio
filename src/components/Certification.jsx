@@ -4,7 +4,10 @@ import { dataCertifications } from "../data/dataCertifications";
 import "@react-pdf-viewer/core/lib/styles/index.css";
 import { FaExternalLinkSquareAlt } from "react-icons/fa";
 
-function Certification() {
+/* -------------------------------------------------------------------------- */
+/*                           CERTIFICATION COMPONENT                          */
+/* -------------------------------------------------------------------------- */
+const Certification = () => {
   return (
     <div className="h-fit p-2 mx-auto px-20" id="certifications">
       <div className="h-48 flex items-center justify-center">
@@ -52,6 +55,6 @@ function Certification() {
       </div>
     </div>
   );
-}
+};
 
 export default Certification;

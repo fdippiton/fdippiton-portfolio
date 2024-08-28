@@ -7,9 +7,16 @@ import Work from "./Work";
 import Skills from "./Skills";
 import Resume from "./Resume";
 
-function Home() {
+/* -------------------------------------------------------------------------- */
+/*                               HOME COMPONENT                               */
+/* -------------------------------------------------------------------------- */
+
+const Home = () => {
   const { pathname, hash } = useLocation();
 
+  /* The `useEffect` hook in the `Home` component is used to perform side effects in function
+ components. In this specific case, the `useEffect` hook is checking the current location
+ (`pathname` and `hash`) and scrolling the page accordingly based on the route. */
   useEffect(() => {
     // Verifica si estás en la ruta de Home
     if (pathname === "/fdippiton-portfolio") {
@@ -39,6 +46,6 @@ function Home() {
       <Resume />
     </div>
   );
-}
+};
 
 export default Home;

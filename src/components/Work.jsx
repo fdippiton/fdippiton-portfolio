@@ -5,11 +5,19 @@ import { BsGithub } from "react-icons/bs";
 import { workData } from "../data/dataList";
 import "../styles/Work.css";
 
-function Work() {
+/* -------------------------------------------------------------------------- */
+/*                               WORK COMPONENT                               */
+/* -------------------------------------------------------------------------- */
+
+const Work = () => {
   const [pointerPosition, setPointerPosition] = useState({ x: 0, y: 0 });
   const [activeCard, setActiveCard] = useState(null);
   const cardRefs = useRef({}); // Usado para almacenar referencias a los elementos
 
+  /**
+   * The `handleMouseMove` function calculates the position of the mouse pointer relative to a specific
+   * element on the page.
+   */
   const handleMouseMove = (event, id) => {
     const rect = cardRefs.current[id].getBoundingClientRect();
     setPointerPosition({
@@ -18,10 +26,16 @@ function Work() {
     });
   };
 
+  /**
+   * The handleMouseEnter function sets the active card based on the provided id.
+   */
   const handleMouseEnter = (id) => {
     setActiveCard(id);
   };
 
+  /**
+   * The `handleMouseLeave` function sets the active card to null when the mouse leaves.
+   */
   const handleMouseLeave = () => {
     setActiveCard(null);
   };
@@ -109,6 +123,6 @@ function Work() {
       </div>
     </div>
   );
-}
+};
 
 export default Work;

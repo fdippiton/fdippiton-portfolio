@@ -4,10 +4,16 @@ import { workData } from "../data/dataList";
 import { HiOutlineExternalLink } from "react-icons/hi";
 import { BsGithub } from "react-icons/bs";
 
-function Project() {
+/* -------------------------------------------------------------------------- */
+/*                              PROJECT COMPONENT                             */
+/* -------------------------------------------------------------------------- */
+
+const Project = () => {
   const { id } = useParams();
   const [currentProject, setCurrentProject] = useState(null);
 
+  /* The `useEffect` hook in the code snippet is responsible for fetching and setting the current
+  project based on the `id` parameter from the URL. Here's a breakdown of what it does: */
   useEffect(() => {
     if (id) {
       const project = workData.find((p) => p.id === parseInt(id));
@@ -88,6 +94,6 @@ function Project() {
       </div>
     </div>
   );
-}
+};
 
 export default Project;

@@ -3,7 +3,11 @@ import { Link } from "react-router-dom";
 import { FaBars } from "react-icons/fa"; // Importar el ícono del menú
 import "../index.css";
 
-function Header() {
+/* -------------------------------------------------------------------------- */
+/*                              HEADER COMPONENT                              */
+/* -------------------------------------------------------------------------- */
+
+const Header = () => {
   const [isOpen, setIsOpen] = useState(false);
   const menuRef = useRef(null);
 
@@ -114,6 +118,6 @@ function Header() {
       </ul>
     </header>
   );
-}
+};
 
 export default Header;

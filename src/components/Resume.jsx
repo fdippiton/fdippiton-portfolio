@@ -1,7 +1,11 @@
 import { IoDownloadOutline } from "react-icons/io5";
 import { HiOutlineMailOpen } from "react-icons/hi";
 
-function Resume() {
+/* -------------------------------------------------------------------------- */
+/*                              RESUME COMPONENT                              */
+/* -------------------------------------------------------------------------- */
+
+const Resume = () => {
   return (
     <div className="px-20 " id="resume">
       <div className="h-40 pt-10 flex items-center justify-center">
@@ -34,6 +38,6 @@ function Resume() {
       </div>
     </div>
   );
-}
+};
 
 export default Resume;

@@ -2,7 +2,11 @@ import francina_profile from "../assets/francina_profile.jpg";
 import { FaLocationDot } from "react-icons/fa6";
 import "../index.css";
 
-function Hero() {
+/* -------------------------------------------------------------------------- */
+/*                               HERO COMPONENT                               */
+/* -------------------------------------------------------------------------- */
+
+const Hero = () => {
   return (
     <>
       {/* ---------------------------------- Hero ---------------------------------- */}
@@ -63,6 +67,6 @@ function Hero() {
       </div>
     </>
   );
-}
+};
 
 export default Hero;

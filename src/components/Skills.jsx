@@ -15,7 +15,11 @@ import { BsGit } from "react-icons/bs";
 import { FaReact, FaSass } from "react-icons/fa";
 import "../styles/Skills.css";
 
-function Skills() {
+/* -------------------------------------------------------------------------- */
+/*                              SKILLS COMPONENT                              */
+/* -------------------------------------------------------------------------- */
+
+const Skills = () => {
   const skills = [
     { icon: <ImHtmlFive className="w-8 h-8" />, label: "HTML" },
     { icon: <ImCss3 className="w-8 h-8" />, label: "CSS" },
@@ -115,6 +119,6 @@ function Skills() {
       </div>
     </div>
   );
-}
+};
 
 export default Skills;

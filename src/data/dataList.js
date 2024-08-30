@@ -13,7 +13,8 @@ export const workData = [
     id: 1,
     project_name: "todolist",
     project_description: "To do list application.",
-    technologies_used: "HTML, CSS, React, Vite.js, Tailwind Css",
+    technologies_used:
+      "HTML, CSS, React, Express, Node.js, Vite.js, Tailwind Css",
     github_url: "https://github.com/fdippiton/todolist",
     url: "https://fdippiton.github.io/todolist/",
   },

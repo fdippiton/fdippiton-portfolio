@@ -7,7 +7,7 @@ export const workData = [
     technologies_used:
       "HTML, CSS, React, Vite.js, JWT, Express, Node.js, MongoDB",
     github_url: "https://github.com/fdippiton/dippiton-blog-box",
-    url: "dippiton-blog-box.vercel.app",
+    url: "https://dippiton-blog-box.vercel.app/",
   },
   {
     id: 1,
